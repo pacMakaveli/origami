@@ -1,0 +1,15 @@
+test
+  ├── Gemfile
+  ├── lib/
+  │   ├── linear_client.rb
+  │   ├── linear/
+  │   │   ├── client.rb
+  │   │   ├── query.rb
+  │   │   ├── label_analyzer.rb  # New file for integration
+  │   │   └── models/
+  │   │       ├── issue.rb
+  │   │       ├── team.rb
+  │   │       └── label.rb       # New model for labels
+  ├── spec/
+  │   └── linear_client_spec.rb
+  └── README.md
